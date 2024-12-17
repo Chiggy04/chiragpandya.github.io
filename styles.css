@@ -1,0 +1,87 @@
+body {
+    margin: 0;
+    font-family: 'Courier New', Courier, monospace;
+    color: white;
+    background: url('https://source.unsplash.com/1600x900/?stars,galaxy') no-repeat center center/cover;
+    line-height: 1.6;
+}
+
+header {
+    text-align: center;
+    padding: 3rem 0;
+    background: rgba(0, 0, 0, 0.6);
+}
+
+header h1 {
+    margin: 0;
+    font-size: 3rem;
+    text-transform: uppercase;
+}
+
+header p {
+    margin: 0.5rem 0;
+    font-size: 1.2rem;
+}
+
+header .btn {
+    margin-top: 1rem;
+    padding: 0.7rem 1.5rem;
+    background: #4d91ff;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+header .btn:hover {
+    background: #356db0;
+}
+
+nav {
+    background: rgba(0, 0, 0, 0.8);
+    padding: 0.5rem 0;
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+}
+
+nav ul {
+    display: flex;
+    justify-content: center;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+nav ul li {
+    margin: 0 1rem;
+}
+
+nav ul li a {
+    color: #4d91ff;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+nav ul li a:hover {
+    color: #ffffff;
+}
+
+.section {
+    padding: 2rem;
+    text-align: center;
+    background: rgba(0, 0, 0, 0.5);
+    margin: 1rem auto;
+    border-radius: 10px;
+    max-width: 800px;
+}
+
+.section h2 {
+    color: #4d91ff;
+    text-transform: uppercase;
+}
+
+footer {
+    text-align: center;
+    padding: 1rem;
+    background: rgba(0, 0, 0, 0.8);
+}
